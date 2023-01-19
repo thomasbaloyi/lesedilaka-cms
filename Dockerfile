@@ -1,4 +1,4 @@
-FROM 19-alpine-jdk
+FROM sapmachine:19
 
 ARG JAR_FILE=target/*.jar
 
